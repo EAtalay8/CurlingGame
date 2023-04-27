@@ -1,0 +1,651 @@
+fileFormatVersion: 2
+guid: c0cd556ab9d76dc48b1e725d22e62033
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1382
+        width: 778
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4122421593801b49b59eceff1f0b851
+      internalID: -318753170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_1"
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1381
+        width: 665
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b455023b7b521d14680bca4ba3558b1f
+      internalID: 575269820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_2"
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 1381
+        width: 664
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145b1bd87d05cb84c9ba88f6f925bf8d
+      internalID: -1838117911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_3"
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 1388
+        width: 689
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a5f809e1870c14faf3b3a32bee71c9
+      internalID: 4151932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_4"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 956
+        width: 503
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dabc2e3e4221d5469af46babee4561a
+      internalID: 1424330875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_5"
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 956
+        width: 501
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f5658bb2035f5469fa56a63d6295e2
+      internalID: 1623890593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_6"
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 956
+        width: 501
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff2837dcfa830a4e90dfaf51fb52ec6
+      internalID: 1365679430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_7"
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 957
+        width: 500
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d765ef9abc95e48bb8de5f8b1b870e
+      internalID: 1317332728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_8"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 728
+        width: 503
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4fa3d800322be4cbd9022cd12f7f56
+      internalID: 1860576164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_9"
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 728
+        width: 501
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f632489b39c7fbb43ac3a216621bae87
+      internalID: -1033989487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_10"
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 728
+        width: 501
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613782bd30916a9468737a52112b6e9d
+      internalID: -886246942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_11"
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 729
+        width: 500
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8017130118337f42a338d60cd46f89e
+      internalID: -1377993075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_12"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 484
+        width: 503
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e909fb5a09bbd94db49b23d5d898110
+      internalID: -648045629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_13"
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 484
+        width: 501
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5e99deb8207e947b600caabd3f71c0
+      internalID: 235993924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_14"
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 484
+        width: 501
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a28114c6c586894ba870f83f27c4393
+      internalID: 1859798723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_15"
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 485
+        width: 500
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c558071bdfe5c6c4b87ee7b190e4497a
+      internalID: -767396585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_16"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 249
+        width: 503
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80523c9f61858e4c94e753313326197
+      internalID: -1680546818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_17"
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 249
+        width: 501
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66aff5f6929d8c14481f8fa5112aef72
+      internalID: -1290704062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_18"
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 249
+        width: 501
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d316f2fa6fc4b4e46b46c4d3942710ed
+      internalID: -731177896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_19"
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 250
+        width: 500
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73f65ada18b93a439366b022d29502c
+      internalID: -947717924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_20"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 503
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6facef53d9aba5f468c8d4c01fb17721
+      internalID: 1652296444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_21"
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 0
+        width: 501
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5595f1ba4a6f20146a113b309f2721b0
+      internalID: -860439150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_22"
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 0
+        width: 501
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a11919e1967b4458e604dae468e612
+      internalID: -1024397437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "UI_PACK_devam\u0131_23"
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 0
+        width: 603
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4138269f2de2cca4db7a93c351f1fae6
+      internalID: 25698962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c53e45ffd236bdb459d41d8b8570dcdf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "UI_PACK_devam\u0131_0": -318753170
+      "UI_PACK_devam\u0131_1": 575269820
+      "UI_PACK_devam\u0131_10": -886246942
+      "UI_PACK_devam\u0131_11": -1377993075
+      "UI_PACK_devam\u0131_12": -648045629
+      "UI_PACK_devam\u0131_13": 235993924
+      "UI_PACK_devam\u0131_14": 1859798723
+      "UI_PACK_devam\u0131_15": -767396585
+      "UI_PACK_devam\u0131_16": -1680546818
+      "UI_PACK_devam\u0131_17": -1290704062
+      "UI_PACK_devam\u0131_18": -731177896
+      "UI_PACK_devam\u0131_19": -947717924
+      "UI_PACK_devam\u0131_2": -1838117911
+      "UI_PACK_devam\u0131_20": 1652296444
+      "UI_PACK_devam\u0131_21": -860439150
+      "UI_PACK_devam\u0131_22": -1024397437
+      "UI_PACK_devam\u0131_23": 25698962
+      "UI_PACK_devam\u0131_3": 4151932
+      "UI_PACK_devam\u0131_4": 1424330875
+      "UI_PACK_devam\u0131_5": 1623890593
+      "UI_PACK_devam\u0131_6": 1365679430
+      "UI_PACK_devam\u0131_7": 1317332728
+      "UI_PACK_devam\u0131_8": 1860576164
+      "UI_PACK_devam\u0131_9": -1033989487
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
