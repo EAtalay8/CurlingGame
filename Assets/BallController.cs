@@ -32,8 +32,19 @@ public class BallController : MonoBehaviour
             if (!isThrowed)
             {
                 ballRigidbody.AddForce(transform.forward * (bar.fillAmount + 0.6f) * maxBallForce);
-                isThrowed = true;
+                GameManager.instance.spaceText.SetActive(false);
+                GameManager.instance.camText.SetActive(true);
             }
+        }
+
+        if (ballRigidbody.velocity.z > 0)
+        {
+            isThrowed = true;
+        }
+
+        if (isThrowed && ballRigidbody.velocity.z == 0)
+        {
+            GameManager.instance.endGame = true;
         }
 
         Debug.Log(pointCount);
