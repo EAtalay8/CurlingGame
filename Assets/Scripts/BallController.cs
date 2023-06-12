@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class BallController : MonoBehaviour
 {
-    public int pointCount = 0;
-
     private Rigidbody ballRigidbody;
     public Image bar;
 
@@ -44,10 +42,12 @@ public class BallController : MonoBehaviour
 
         if (isThrowed && ballRigidbody.velocity.z == 0)
         {
-            GameManager.instance.endGame = true;
+            //GameManager.instance.endGame = true;
+            ballRigidbody.mass = 0.1f;
+            isThrowed = true;
         }
 
-        Debug.Log(pointCount);
+        //Debug.Log(pointCount);
         /*if (bar.fillAmount == 1 && !isThrowed)
         {
             ballRigidbody.AddForce(transform.forward * (bar.fillAmount + 0.6f) * maxBallForce);
@@ -59,32 +59,32 @@ public class BallController : MonoBehaviour
     {
         if(other.CompareTag("+5"))
         {
-            pointCount += 5;
+            GameManager.instance.pointCount += 5;
         }
 
         if (other.CompareTag("+10"))
         {
-            pointCount += 10;
+            GameManager.instance.pointCount += 10;
         }
 
         if (other.CompareTag("+25"))
         {
-            pointCount += 25;
+            GameManager.instance.pointCount += 25;
         }
 
         if (other.CompareTag("-5"))
         {
-            pointCount -= 5;
+            GameManager.instance.pointCount -= 5;
         }
 
         if (other.CompareTag("-10"))
         {
-            pointCount -= 10;
+            GameManager.instance.pointCount -= 10;
         }
 
         if (other.CompareTag("-25"))
         {
-            pointCount -= 25;
+            GameManager.instance.pointCount -= 25;
         }
 
     }
