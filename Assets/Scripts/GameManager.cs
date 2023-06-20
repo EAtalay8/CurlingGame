@@ -91,7 +91,7 @@ public class GameManager : MonoBehaviour
 
     public void SpawnNewBall()
     {
-        player = Instantiate(ballPrefab, new Vector3(0, 0.2f, 0), Quaternion.identity);
+        player = Instantiate(ballPrefab, new Vector3(0, 0.46f, 0), Quaternion.identity);
         player.GetComponent<BallController>().bar = barImage;
         player.GetComponent<BallController>().bar.fillAmount = 0;
         vcam1.Follow = player.transform;
