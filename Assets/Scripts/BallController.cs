@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class BallController : MonoBehaviour
 {
+    private Animator ballAnimator;
     private Rigidbody ballRigidbody;
     public Image bar;
 
@@ -15,11 +16,13 @@ public class BallController : MonoBehaviour
     void Start()
     {
         ballRigidbody = GetComponent<Rigidbody>();
+        ballAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        ballAnimator.speed = ballRigidbody.velocity.z / 20;
         if (Input.GetKey(KeyCode.Space) && bar.fillAmount != 1 && !isThrowed)
         {
             bar.fillAmount += 0.01f;
@@ -38,6 +41,7 @@ public class BallController : MonoBehaviour
         if (ballRigidbody.velocity.z > 0)
         {
             isThrowed = true;
+            ballAnimator.SetBool("isSpin", true);
         }
 
         if (isThrowed && ballRigidbody.velocity.z == 0)
@@ -45,6 +49,8 @@ public class BallController : MonoBehaviour
             //GameManager.instance.endGame = true;
             ballRigidbody.mass = 0.1f;
             isThrowed = true;
+            //ballAnimator.SetBool("isSpin", false);
+            //ballAnimator.speed = 0;
         }
 
         //Debug.Log(pointCount);
