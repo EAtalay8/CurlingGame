@@ -315,6 +315,9 @@ MonoBehaviour:
   readyToSpawn: 1
   endGame: 0
   throwedBallcount: 0
+  moveDistance: 1
+  leftLimit: -9
+  rightLimit: 9
 --- !u!4 &152641603
 Transform:
   m_ObjectHideFlags: 0
@@ -383,7 +386,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4eae3553ac5adfe449920ac0aa1f32b1, type: 2}
+  - {fileID: 2100000, guid: c7382c22a813d754e8ca1bcaa6c4b8f7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3935,6 +3938,14 @@ PrefabInstance:
     - target: {fileID: 8536517522102831527, guid: edd82c1cbb10f174faa73a5146173ea4, type: 3}
       propertyPath: m_Name
       value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 8536517522102831548, guid: edd82c1cbb10f174faa73a5146173ea4, type: 3}
+      propertyPath: m_Size.y
+      value: 1.7492428
+      objectReference: {fileID: 0}
+    - target: {fileID: 8536517522102831548, guid: edd82c1cbb10f174faa73a5146173ea4, type: 3}
+      propertyPath: m_Center.y
+      value: 0.12537754
       objectReference: {fileID: 0}
     - target: {fileID: 8536517522102831549, guid: edd82c1cbb10f174faa73a5146173ea4, type: 3}
       propertyPath: m_RootOrder

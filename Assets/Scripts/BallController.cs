@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class BallController : MonoBehaviour
 {
+    private AudioSource iceSound;
     private Animator ballAnimator;
     private Rigidbody ballRigidbody;
     public Image bar;
@@ -17,6 +19,7 @@ public class BallController : MonoBehaviour
     {
         ballRigidbody = GetComponent<Rigidbody>();
         ballAnimator = GetComponent<Animator>();
+        iceSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -35,6 +38,7 @@ public class BallController : MonoBehaviour
                 ballRigidbody.AddForce(transform.forward * (bar.fillAmount + 0.6f) * maxBallForce);
                 GameManager.instance.spaceText.SetActive(false);
                 GameManager.instance.camText.SetActive(true);
+                iceSound.Play();
             }
         }
 
@@ -46,23 +50,9 @@ public class BallController : MonoBehaviour
 
         if (isThrowed && ballRigidbody.velocity.z == 0)
         {
-            //GameManager.instance.endGame = true;
             ballRigidbody.mass = 0.1f;
             isThrowed = true;
-            //ballAnimator.SetBool("isSpin", false);
-            //ballAnimator.speed = 0;
-        }
-
-        //Debug.Log(pointCount);
-        /*if (bar.fillAmount == 1 && !isThrowed)
-        {
-            ballRigidbody.AddForce(transform.forward * (bar.fillAmount + 0.6f) * maxBallForce);
-            isThrowed = true;
-        }*/
-
-        if (GameManager.instance.pointCount < 0)
-        {
-            //GameManager.instance.pointCount = 0;
+            iceSound.Stop();
         }
     }
 
@@ -80,12 +70,12 @@ public class BallController : MonoBehaviour
 
         if (other.CompareTag("+25"))
         {
-            GameManager.instance.pointCount += 25;
+            GameManager.instance.pointCount += 10;
         }
 
         if (other.CompareTag("+50"))
         {
-            GameManager.instance.pointCount += 50;
+            GameManager.instance.pointCount += 25;
         }
 
         if (other.CompareTag("-5"))
@@ -100,12 +90,12 @@ public class BallController : MonoBehaviour
 
         if (other.CompareTag("-25"))
         {
-            GameManager.instance.pointCount -= 25;
+            GameManager.instance.pointCount -= 10;
         }
 
         if (other.CompareTag("-50"))
         {
-            GameManager.instance.pointCount -= 50;
+            GameManager.instance.pointCount -= 25;
         }
     }
 
@@ -123,12 +113,12 @@ public class BallController : MonoBehaviour
 
         if (other.CompareTag("+25"))
         {
-            GameManager.instance.pointCount -= 25;
+            GameManager.instance.pointCount -= 10;
         }
 
         if (other.CompareTag("+50"))
         {
-            GameManager.instance.pointCount -= 50;
+            GameManager.instance.pointCount -= 25;
         }
     }
 }

@@ -33,6 +33,10 @@ public class GameManager : MonoBehaviour
 
     public int throwedBallcount = 0;
 
+    public float moveDistance = 1f;
+    public float leftLimit = -9f; // Sola olan sýnýrlama deðeri
+    public float rightLimit = 9f; // Saða olan sýnýrlama deðeri
+
     #region
     public static GameManager instance;
 
@@ -50,6 +54,18 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // A tuþuna basýldýðýnda sola hareket et
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            MoveLeft();
+        }
+
+        // D tuþuna basýldýðýnda saða hareket et
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            MoveRight();
+        }
+
         if (Input.GetKeyDown(KeyCode.C))
         {
             vcam2.Priority = 11;
@@ -75,7 +91,7 @@ public class GameManager : MonoBehaviour
             SpawnNewBall();
         }
 
-        if (throwedBallcount >= 2)
+        if (throwedBallcount >= 8)
         {
             endGame = true;
         }
@@ -97,5 +113,22 @@ public class GameManager : MonoBehaviour
         vcam1.Follow = player.transform;
         readyToSpawn = false;
         throwedBallcount++;
+    }
+    private void MoveLeft()
+    {
+        if (player.transform.position.x > leftLimit)
+        {
+            float newX = Mathf.Max(player.transform.position.x - moveDistance, leftLimit);
+            player.transform.position = new Vector3(newX, player.transform.position.y, player.transform.position.z);
+        }
+    }
+
+    private void MoveRight()
+    {
+        if (player.transform.position.x < rightLimit)
+        {
+            float newX = Mathf.Min(player.transform.position.x + moveDistance, rightLimit);
+            player.transform.position = new Vector3(newX, player.transform.position.y, player.transform.position.z);
+        }
     }
 }
