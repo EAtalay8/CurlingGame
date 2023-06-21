@@ -59,6 +59,11 @@ public class BallController : MonoBehaviour
             ballRigidbody.AddForce(transform.forward * (bar.fillAmount + 0.6f) * maxBallForce);
             isThrowed = true;
         }*/
+
+        if (GameManager.instance.pointCount < 0)
+        {
+            //GameManager.instance.pointCount = 0;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -78,6 +83,11 @@ public class BallController : MonoBehaviour
             GameManager.instance.pointCount += 25;
         }
 
+        if (other.CompareTag("+50"))
+        {
+            GameManager.instance.pointCount += 50;
+        }
+
         if (other.CompareTag("-5"))
         {
             GameManager.instance.pointCount -= 5;
@@ -93,5 +103,32 @@ public class BallController : MonoBehaviour
             GameManager.instance.pointCount -= 25;
         }
 
+        if (other.CompareTag("-50"))
+        {
+            GameManager.instance.pointCount -= 50;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("+5"))
+        {
+            GameManager.instance.pointCount -= 5;
+        }
+
+        if (other.CompareTag("+10"))
+        {
+            GameManager.instance.pointCount -= 10;
+        }
+
+        if (other.CompareTag("+25"))
+        {
+            GameManager.instance.pointCount -= 25;
+        }
+
+        if (other.CompareTag("+50"))
+        {
+            GameManager.instance.pointCount -= 50;
+        }
     }
 }

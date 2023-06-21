@@ -7,9 +7,11 @@ TagManager:
   - +5
   - +10
   - +25
-  - -25
-  - -10
+  - +50
   - -5
+  - -10
+  - -25
+  - -50
   layers:
   - Default
   - TransparentFX
